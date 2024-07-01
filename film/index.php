@@ -39,7 +39,7 @@ $result = $conn->query($sql);
                         <td><?php echo $row["nama_film"]; ?></td>
                         <td><?php echo $row["kategori"]; ?></td>
                         <td><?php echo $row["rating"]; ?></td>
-                        <td><?php echo $row["status"] == 1 ? "Tersedia" : "Tidak Tersedia"; ?></td>
+                        <td><?php echo $row["status"] == 1 ? "sudah di tonton" : "belum di tonton"; ?></td>
                         <td>
                             <a href="update.php?id=<?php echo $row["id_film"]; ?>" class="btn btn-warning btn-sm">Edit</a>
                             <a href="delete.php?id=<?php echo $row["id_film"]; ?>" class="btn btn-danger btn-sm">Delete</a>
