@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input type="password" class="form-control" id="password" name="password" required>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Register</button>
-                <a href="login  .php" class="pt-2">Sudah punya akun?</a>
+                <a href="login.php" class="pt-2">Sudah punya akun?</a>
             </form>
         </div>
     </div>
